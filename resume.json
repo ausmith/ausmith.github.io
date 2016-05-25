@@ -1,0 +1,139 @@
+{
+  "activities": {
+    "college": [
+      "Member of :: FAB@GT:CoC, SAB@GT:CoC, and GTSF:Investment Committee",
+      "Multimedia Specialist @ GT (1/07 - 10/08) :: Multimedia training and computer lab maintenance",
+      "Senior Design Project (Fall 2010) :: project manager, custom medical form engine"
+    ],
+    "other": [
+      "Boy Scounts (Eagle Scout)",
+      "LowCountry BBQ Catering (2006 - 2007)",
+      "Freelance web development",
+      "Freelance event filmography"
+    ]
+  },
+  "contact": {
+    "email": "goldsmithaaron@gmail.com"
+  },
+  "education": {
+    "college": {
+      "name": "Georgia Institute of Technology",
+      "degree": "Bachelors of Science",
+      "subject": "Computer Science",
+      "date": "May 2011"
+    },
+    "highschool": {
+      "name": "Oak Mountain Academy",
+      "date": "May 2006"
+    }
+  },
+  "experience": {
+    "careerbuilder": {
+      "name": "CareerBuilder",
+      "location": "Norcross, Georgia",
+      "dates": "11/14 - Present",
+      "technologies": [
+        "Ruby",
+        "Linux",
+        "AWS",
+        "Chef",
+        "relational databases (PostgreSQL)"
+      ],
+      "titles": {
+        "Software Engineer 2 :: 11/14 - 7/15": [
+          ["Manage AWS footprint for green field projects"],
+          [
+            "Introduce security minded system configuration",
+            "Brought in evident.io to help monitor and analyze existing AWS infrastructure"
+          ],
+          [
+            "Train others on coding best practices",
+            "Ad hoc individual mentoring (Ruby and development environments)",
+            "Updating the internal Ruby style guide with best practices"
+          ]
+        ],
+        "Software Engineer 3 :: 7/15 - Present": [
+          ["Architect proxy layer to facilitate platform switch from legacy systems (Java, Groovy, Netflix/zuul)"],
+          ["Begin switch to AWS architecture as code (AWS CloudFormation with Ruby scripts)"],
+          [
+            "Hold meetings to teach developers throughout organization",
+            "Organized security workshop to demonstrate ease of organizational compromise with a single weak link (https://github.com/ausmith/poormans-labyrinth)",
+            "Spoke on learnings of moving off a legacy platform"
+          ],
+          ["Manage relationship with multiple vendors and encourage further cooperation between organizations"]
+        ]
+      }
+    },
+    "govdelivery": {
+      "name": "GovDelivery",
+      "location": "St Paul, Minnesota",
+      "dates": "6/14 - 10/14",
+      "technologies": [
+        "Ruby",
+        "Javascript",
+        "Puppet",
+        "relational databases (Oracle)"
+      ],
+      "titles": {
+        "Software Engineer :: 6/14 - 10/14": [
+          ["Maintain, update, and upgrade applications to fulfill customer needs (Ruby)"],
+          ["Contributed to upgrading Rails projects from 3.X to Rails 4.X"],
+          ["Close collaboration with quality assurance and product management"],
+          ["Rebuilt internal Jenkins build box via Puppet while upgrading OS (CentOS 5 to CentOS 6)"]
+        ]
+      }
+    },
+    "damballa": {
+      "name": "Damballa",
+      "location": "Atlanta, Georgia",
+      "dates": "6/11 - 5/14",
+      "technologies": [
+        "Ruby",
+        "Python",
+        "C",
+        "Puppet",
+        "Linux",
+        "AWS",
+        "relational and non-relational databases (MySQL, PostgreSQL, CouchDB)"
+      ],
+      "titles": {
+        "Software Engineer :: 6/11 - 5/14": [
+          ["Manage and maintain data from field equipment for researchers to leverage"],
+          [
+            "Handle all infrastructure between threat analysts and knowledge delivery to the product",
+            "Command line tools for annotating threat knowledge (Python)",
+            "Shim between research database and the delivery engine for the product (Ruby)"
+          ],
+          ["Business logic and storage for research data conversion to a product consumable format"],
+          [
+            "Store information about file binaries",
+            "Utilize existing infrastructure for file analysis to generate a rule based verdict for all binaries",
+            "Deliver a concise report per binary including our verdict and related evidence"
+          ]
+        ]
+      }
+    }
+  },
+  "objective": {
+    "statement": "Seeking a full-time position that leverages my leadership and work experiences while allowing me to further explore the fields of information security and software engineering."
+  },
+  "toolbox": {
+    "languages": [
+      "Ruby",
+      "Python",
+      "C"
+    ],
+    "databases": [
+      "SQL (PostgreSQL, MySQL, Oracle)",
+      "CouchDB",
+      "Cassandra"
+    ],
+    "systems": [
+      "Linux"
+    ],
+    "configuration": [
+      "Puppet",
+      "Chef"
+    ]
+  }
+}
