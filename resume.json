@@ -13,6 +13,7 @@
     ]
   },
   "contact": {
+    "name": "Aaron Goldsmith",
     "email": "goldsmithaaron@gmail.com"
   },
   "education": {
@@ -41,26 +42,23 @@
       ],
       "titles": {
         "Software Engineer 2 :: 11/14 - 7/15": [
-          ["Manage AWS footprint for green field projects"],
-          [
-            "Introduce security minded system configuration",
+          ["Manage AWS footprint for green field projects", []],
+          ["Introduce security minded system configuration", [
             "Brought in evident.io to help monitor and analyze existing AWS infrastructure"
-          ],
-          [
-            "Train others on coding best practices",
+          ]],
+          ["Train others on coding best practices", [
             "Ad hoc individual mentoring (Ruby and development environments)",
             "Updating the internal Ruby style guide with best practices"
-          ]
+          ]]
         ],
         "Software Engineer 3 :: 7/15 - Present": [
-          ["Architect proxy layer to facilitate platform switch from legacy systems (Java, Groovy, Netflix/zuul)"],
-          ["Begin switch to AWS architecture as code (AWS CloudFormation with Ruby scripts)"],
-          [
-            "Hold meetings to teach developers throughout organization",
+          ["Architect proxy layer to facilitate platform switch from legacy systems (Java, Groovy, Netflix/zuul)", []],
+          ["Begin switch to AWS architecture as code (AWS CloudFormation with Ruby scripts)", []],
+          ["Hold meetings to teach developers throughout organization", [
             "Organized security workshop to demonstrate ease of organizational compromise with a single weak link (https://github.com/ausmith/poormans-labyrinth)",
             "Spoke on learnings of moving off a legacy platform"
-          ],
-          ["Manage relationship with multiple vendors and encourage further cooperation between organizations"]
+          ]],
+          ["Manage relationship with multiple vendors and encourage further cooperation between organizations", []]
         ]
       }
     },
@@ -76,10 +74,10 @@
       ],
       "titles": {
         "Software Engineer :: 6/14 - 10/14": [
-          ["Maintain, update, and upgrade applications to fulfill customer needs (Ruby)"],
-          ["Contributed to upgrading Rails projects from 3.X to Rails 4.X"],
-          ["Close collaboration with quality assurance and product management"],
-          ["Rebuilt internal Jenkins build box via Puppet while upgrading OS (CentOS 5 to CentOS 6)"]
+          ["Maintain, update, and upgrade applications to fulfill customer needs (Ruby)", []],
+          ["Contributed to upgrading Rails projects from 3.X to Rails 4.X", []],
+          ["Close collaboration with quality assurance and product management", []],
+          ["Rebuilt internal Jenkins build box via Puppet while upgrading OS (CentOS 5 to CentOS 6)", []]
         ]
       }
     },
@@ -99,17 +97,15 @@
       "titles": {
         "Software Engineer :: 6/11 - 5/14": [
           ["Manage and maintain data from field equipment for researchers to leverage"],
-          [
-            "Handle all infrastructure between threat analysts and knowledge delivery to the product",
+          ["Handle all infrastructure between threat analysts and knowledge delivery to the product", [
             "Command line tools for annotating threat knowledge (Python)",
             "Shim between research database and the delivery engine for the product (Ruby)"
-          ],
-          ["Business logic and storage for research data conversion to a product consumable format"],
-          [
-            "Store information about file binaries",
+          ]],
+          ["Business logic and storage for research data conversion to a product consumable format", []],
+          ["Store information about file binaries", [
             "Utilize existing infrastructure for file analysis to generate a rule based verdict for all binaries",
             "Deliver a concise report per binary including our verdict and related evidence"
-          ]
+          ]]
         ]
       }
     }

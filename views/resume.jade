@@ -1,0 +1,44 @@
+extends layout
+
+block content
+  h1= contact['name']
+  h4= contact['email']
+
+  p= objective['statement']
+
+  h3 Toolbox
+  h4 Languages
+  p= JSON.stringify(toolbox['languages'])
+  h4 Databases
+  p= JSON.stringify(toolbox['databases'])
+  h4 Systems
+  p= JSON.stringify(toolbox['systems'])
+  h4 Configuration
+  p= JSON.stringify(toolbox['configuration'])
+
+  h3 Experience
+  each exp, key in experience
+    h4 #{exp['name']} :: #{exp['location']} :: #{exp['dates']}
+    each titleDetail, title in exp['titles']
+      h5= title
+      ul
+        each line in titleDetail
+          li= line[0]
+          if line[1] != undefined && line[1] != null
+            ul
+              each l in line[1]
+                li= l
+    h5 Technologies
+    p= JSON.stringify(exp['technologies'])
+
+  h3 Education
+  h5 College
+  p= JSON.stringify(education['college'])
+  h5 High School
+  p= JSON.stringify(education['highschool'])
+
+  h3 Activities
+  h5 College
+  p= JSON.stringify(activities['college'])
+  h5 Other
+  p= JSON.stringify(activities['other'])
