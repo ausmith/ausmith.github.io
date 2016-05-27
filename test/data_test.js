@@ -72,7 +72,7 @@ describe('Data API', function() {
         .set('Accept', 'application/json')
         .expect(200)
         .expect(function(res) {
-          var expectedKeys = ['college', 'highschool'];
+          var expectedKeys = ['college'];
           testForExpectedKeys(expectedKeys, res.body);
         })
         .expect('Content-Type', /json/, done);
