@@ -27,7 +27,7 @@
           "detail": "Helped maintain internal website and CMS (PHP, relational databases)"
         },
         "wanderingwifi": {
-          "name": "Wandering WiFi (now AirWatch)",
+          "name": "Wandering WiFi",
           "location": "Atlanta, Georgia",
           "dates": "5/07 - 6/08",
           "title": "Tech Support",
@@ -39,7 +39,7 @@
           "location": "Atlanta, Georgia",
           "dates": "1/07 - 10/08",
           "title": "Multimedia Specialist",
-          "type": "Part-time",
+          "type": "part-time",
           "detail": "Multimedia training and computer lab maintenance"
         }
       }
@@ -123,12 +123,12 @@
       ],
       "titles": {
         "Software Engineer :: 6/11 - 5/14": [
-          ["Managed and maintained data from field equipment for researchers to leverage"],
+          ["Managed and maintained field data for data scientists to process"],
           ["Handled all infrastructure between threat analysts and knowledge delivery to the product", [
             "Command line tools for annotating threat knowledge (Python)",
-            "Shim between research database and the delivery engine for the product (Ruby)"
+            "Application with business logic for converting research data to product consumable format (Ruby)",
+            "Delivery engine of knowledge base updates for devices in the field (Ruby)"
           ]],
-          ["Business logic and storage for research data conversion to a product consumable format", []],
           ["Stored information about file binaries", [
             "Utilize existing infrastructure for file analysis to generate a rule based verdict for all binaries",
             "Deliver a concise report per binary including our verdict and related evidence"
