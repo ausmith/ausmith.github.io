@@ -14,32 +14,32 @@ var fetchData = function(key) {
 
 /* Activities */
 router.get('/activities', function(req, res) {
-  res.send(fetchData('activities'));
+  res.json(fetchData('activities'));
 });
 
 /* Contact */
 router.get('/contact', function(req, res) {
-  res.send(fetchData('contact'));
+  res.json(fetchData('contact'));
 });
 
 /* Education */
 router.get('/education', function(req, res) {
-  res.send(fetchData('education'));
+  res.json(fetchData('education'));
 });
 
 /* Experience */
 router.get('/experience', function(req, res) {
-  res.send(fetchData('experience'));
+  res.json(fetchData('experience'));
 });
 
 /* Toolbox */
 router.get('/toolbox', function(req, res) {
-  res.send(fetchData('toolbox'));
+  res.json(fetchData('toolbox'));
 });
 
 /* All */
 router.get('/', function(req, res) {
-  res.send(JSON.parse(readFile(fileName)));
+  res.json(JSON.parse(readFile(fileName)));
 });
 
 module.exports = router;
