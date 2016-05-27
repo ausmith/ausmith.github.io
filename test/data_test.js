@@ -30,7 +30,7 @@ describe('Data API', function() {
         .set('Accept', 'application/json')
         .expect(200)
         .expect(function(res) {
-          var expectedKeys = ['activities', 'contact', 'education', 'experience', 'objective', 'toolbox'];
+          var expectedKeys = ['activities', 'contact', 'education', 'experience', 'toolbox'];
           testForExpectedKeys(expectedKeys, res.body);
         })
         .expect('Content-Type', /json/, done);
@@ -87,20 +87,6 @@ describe('Data API', function() {
         .expect(200)
         .expect(function(res) {
           var expectedKeys = ['careerbuilder', 'govdelivery', 'damballa'];
-          testForExpectedKeys(expectedKeys, res.body);
-        })
-        .expect('Content-Type', /json/, done);
-    });
-  });
-
-  describe('/objective', function() {
-    it('returns just the objective section of the file', function testDataObjective(done) {
-      request(server)
-        .get('/data/objective')
-        .set('Accept', 'application/json')
-        .expect(200)
-        .expect(function(res) {
-          var expectedKeys = ['statement'];
           testForExpectedKeys(expectedKeys, res.body);
         })
         .expect('Content-Type', /json/, done);

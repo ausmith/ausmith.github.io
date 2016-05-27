@@ -16,7 +16,6 @@ var fetchData = function(key) {
 router.get('/', function(req, res, next) {
   var data = {
     contact: fetchData('contact'),
-    objective: fetchData('objective'),
     toolbox: fetchData('toolbox'),
     experience: fetchData('experience'),
     activities: fetchData('activities'),

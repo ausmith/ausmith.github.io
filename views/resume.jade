@@ -4,17 +4,20 @@ block content
   h1= contact['name']
   h4= contact['email']
 
-  p= objective['statement']
-
   h3 Toolbox
-  h4 Languages
-  p= JSON.stringify(toolbox['languages'])
-  h4 Databases
-  p= JSON.stringify(toolbox['databases'])
-  h4 Systems
-  p= JSON.stringify(toolbox['systems'])
-  h4 Configuration
-  p= JSON.stringify(toolbox['configuration'])
+  table
+    tr
+      td Languages:
+      td= JSON.stringify(toolbox['languages'])
+    tr
+      td Databases:
+      td= JSON.stringify(toolbox['databases'])
+    tr
+      td Systems:
+      td= JSON.stringify(toolbox['systems'])
+    tr
+      td Configuration:
+      td= JSON.stringify(toolbox['configuration'])
 
   h3 Experience
   each exp, key in experience

@@ -32,11 +32,6 @@ router.get('/experience', function(req, res) {
   res.send(fetchData('experience'));
 });
 
-/* Objective */
-router.get('/objective', function(req, res) {
-  res.send(fetchData('objective'));
-});
-
 /* Toolbox */
 router.get('/toolbox', function(req, res) {
   res.send(fetchData('toolbox'));
