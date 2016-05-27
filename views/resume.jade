@@ -34,11 +34,10 @@ block content
     h5 Technologies
     p= JSON.stringify(exp['technologies'])
 
-  h3 Education
-  p= "College: " + JSON.stringify(education['college'])
-
-  h3 Activities
-  h5 College
-  p= JSON.stringify(activities['college'])
-  h5 Other
-  p= JSON.stringify(activities['other'])
+  h3 College Education + Employment
+  h4 #{ education['college']['name'] } :: #{ education['college']['degree'] } in #{ education['college']['subject'] } :: #{ education['college']['date'] }
+  ul
+    each job, key in education['college']['jobs']
+      li #{ job['name'] } :: #{ job['title'] } - #{ job['type'] } :: #{ job['location'] } :: #{ job['dates'] }
+      ul
+        li= job['detail']

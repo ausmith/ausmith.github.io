@@ -1,17 +1,4 @@
 {
-  "activities": {
-    "college": [
-      "Member of :: FAB@GT:CoC, SAB@GT:CoC, and GTSF:Investment Committee",
-      "Multimedia Specialist @ GT (1/07 - 10/08) :: Multimedia training and computer lab maintenance",
-      "Senior Design Project (Fall 2010) :: project manager, custom medical form engine"
-    ],
-    "other": [
-      "Boy Scouts (Eagle Scout)",
-      "LowCountry BBQ Catering (2006 - 2007)",
-      "Freelance web development",
-      "Freelance event filmography"
-    ]
-  },
   "contact": {
     "name": "Aaron Goldsmith",
     "email": "goldsmithaaron@gmail.com"
@@ -21,7 +8,41 @@
       "name": "Georgia Institute of Technology",
       "degree": "Bachelors of Science",
       "subject": "Computer Science",
-      "date": "May 2011"
+      "date": "May 2011",
+      "jobs": {
+        "neustar": {
+          "name": "Neustar, Inc.",
+          "location": "Sterling, Virginia",
+          "dates": "6/10 - 6/11",
+          "title": "Developer",
+          "type": "co-op",
+          "detail": "Built custom regression testing framework in Python"
+        },
+        "gtri": {
+          "name": "GTRI",
+          "location": "Atlanta, Georgia",
+          "dates": "8/08 - 9/09",
+          "title": "Web Developer",
+          "type": "co-op",
+          "detail": "Helped maintain internal website and CMS (PHP, relational databases)"
+        },
+        "wanderingwifi": {
+          "name": "Wandering WiFi (now AirWatch)",
+          "location": "Atlanta, Georgia",
+          "dates": "5/07 - 6/08",
+          "title": "Tech Support",
+          "type": "co-op",
+          "detail": "Handled equipment configuration, report generation (Microsoft Reporting Services), and customer support calls"
+        },
+        "gt": {
+          "name": "Georgia Tech Library",
+          "location": "Atlanta, Georgia",
+          "dates": "1/07 - 10/08",
+          "title": "Multimedia Specialist",
+          "type": "Part-time",
+          "detail": "Multimedia training and computer lab maintenance"
+        }
+      }
     }
   },
   "experience": {

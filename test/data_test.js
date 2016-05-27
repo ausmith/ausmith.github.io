@@ -30,21 +30,7 @@ describe('Data API', function() {
         .set('Accept', 'application/json')
         .expect(200)
         .expect(function(res) {
-          var expectedKeys = ['activities', 'contact', 'education', 'experience', 'toolbox'];
-          testForExpectedKeys(expectedKeys, res.body);
-        })
-        .expect('Content-Type', /json/, done);
-    });
-  });
-
-  describe('/activities', function() {
-    it('returns just the activities section of the file', function testDataActivities(done) {
-      request(server)
-        .get('/data/activities')
-        .set('Accept', 'application/json')
-        .expect(200)
-        .expect(function(res) {
-          var expectedKeys = ['college', 'other'];
+          var expectedKeys = ['contact', 'education', 'experience', 'toolbox'];
           testForExpectedKeys(expectedKeys, res.body);
         })
         .expect('Content-Type', /json/, done);

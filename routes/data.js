@@ -12,11 +12,6 @@ var fetchData = function(key) {
   return JSON.parse(readFile(fileName))[key];
 };
 
-/* Activities */
-router.get('/activities', function(req, res) {
-  res.json(fetchData('activities'));
-});
-
 /* Contact */
 router.get('/contact', function(req, res) {
   res.json(fetchData('contact'));
