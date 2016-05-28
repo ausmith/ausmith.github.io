@@ -16,9 +16,9 @@ API documentation.
 
 This is my first time messing with Node.js and generally with doing javascript
 programming, so please excuse any coding practices that are against the
-typical advice of the community and advise on how to rectify instead.
+typical advice of the community and advise on how to rectify.
 
 ## Thank you for your interest!
 
-Really, thank you so much for being interested in looking at this repo, any
-help with improving it will help me improve as coder!
+Really, thank you so much for being interested in looking at this repo. Any
+help with improving it will help me improve as a coder!
