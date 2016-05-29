@@ -13,15 +13,18 @@ var fetchAll = function(callback) {
     response.on('data', function(d) { body += d; });
     response.on('end', function() {
       var parsed = JSON.parse(body);
-      return callback(parsed);
+      return callback(null, parsed);
+    });
+    response.on('error', function(err) {
+      return callback(err);
     });
   });
 };
 
 // GET /resume
 router.get('/', function(req, res, next) {
-  // TODO: make callback take an error node first
-  fetchAll(function(data) {
+  fetchAll(function(err, data) {
+    if(err) return next(err);
     res.render('resume', data);
   });
 });
