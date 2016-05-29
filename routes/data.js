@@ -1,17 +1,27 @@
-var express = require('express');
-var fs = require('fs');
+var express = require('express'),
+    request = require('request');
 var router = express.Router();
 
-var readFile = function(fname) {
-  // TODO: make async or figure out how to cache at app startup
-  return fs.readFileSync(fname, 'utf8', function(err, data) { return data; });
+var fetchData = function(host, callback) {
+  request.get('http://' + host + '/resume.json', function(err, response, body) {
+    if(!err && response.statusCode == 200) {
+      return callback(null, JSON.parse(body));
+    } else if(!err && response.statusCode != 200) {
+      return callback({ message: 'Bad response' });
+    } else {
+      return callback(err);
+    }
+  });
 };
 
 var fileName = 'resume.json';
 var resume = {};
 router.use(function (req, res, next) {
-  resume = JSON.parse(readFile(fileName));
-  next();
+  fetchData(req.get('host'), function(err, data) {
+    if(err) return next(err);
+    resume = data;
+    next();
+  });
 });
 
 // GET /data
