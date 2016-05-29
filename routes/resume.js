@@ -1,29 +1,23 @@
 var express = require('express'),
     fs = require('fs'),
-    http = require('http');
+    request = require('request');
 var router = express.Router();
 
-var fetchAll = function(callback) {
-  http.get({
-    host: 'localhost',
-    port: 3000,
-    path: '/data'
-  }, function(response) {
-    var body = '';
-    response.on('data', function(d) { body += d; });
-    response.on('end', function() {
-      var parsed = JSON.parse(body);
-      return callback(null, parsed);
-    });
-    response.on('error', function(err) {
+var fetchAll = function(host, callback) {
+  request.get('http://' + host + '/data', function(err, response, body) {
+    if(!err && response.statusCode == 200) {
+      return callback(null, JSON.parse(body));
+    } else if(!err && response.statusCode != 200) {
+      return callback({ message: 'Bad response' });
+    } else {
       return callback(err);
-    });
+    }
   });
 };
 
 // GET /resume
 router.get('/', function(req, res, next) {
-  fetchAll(function(err, data) {
+  fetchAll(req.get('host'), function(err, data) {
     if(err) return next(err);
     res.render('resume', data);
   });

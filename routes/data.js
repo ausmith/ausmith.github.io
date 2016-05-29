@@ -3,6 +3,7 @@ var fs = require('fs');
 var router = express.Router();
 
 var readFile = function(fname) {
+  // TODO: make async or figure out how to cache at app startup
   return fs.readFileSync(fname, 'utf8', function(err, data) { return data; });
 };
 
