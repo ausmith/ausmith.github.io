@@ -13,10 +13,12 @@ router.use(function (req, res, next) {
   next();
 });
 
+// GET /data
 router.get('/', function(req, res) {
   res.json(resume);
 });
 
+// GET /data/:k1
 router.get('/:k1', function(req, res, next) {
   var k1 = req.params.k1;
   if(resume[k1] == undefined || resume[k1] == null) next('route');
@@ -25,6 +27,7 @@ router.get('/:k1', function(req, res, next) {
   res.json(resume[req.params.k1]);
 });
 
+// GET /data/:k1/:k2
 router.get('/:k1/:k2', function(req, res, next) {
   var k1 = req.params.k1,
       k2 = req.params.k2;
@@ -35,7 +38,7 @@ router.get('/:k1/:k2', function(req, res, next) {
   res.json(resume[req.params.k1][req.params.k2]);
 });
 
-
+// GET /data/:k1/:k2/:k3
 router.get('/:k1/:k2/:k3', function(req, res, next) {
   var k1 = req.params.k1,
       k2 = req.params.k2,

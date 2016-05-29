@@ -18,7 +18,7 @@ var fetchAll = function(callback) {
   });
 };
 
-/* Display resume */
+// GET /resume
 router.get('/', function(req, res, next) {
   // TODO: make callback take an error node first
   fetchAll(function(data) {
