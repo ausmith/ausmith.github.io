@@ -1,5 +1,35 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  h1 Resume Documentation
+  p This site presents the resume for Aaron Goldsmith in a consumable format.
+  p You can also find the contents of this site at #[a(href="https://github.com/ausmith/resume") ausmith/resume].
+
+  h2 Resume ASSEMBLE!
+  p Go #[a(href="/resume") here] to see the assembled resume.
+
+  h2 Fetch as JSON
+  p.
+    The entirety of the resume has been represented as JSON and then assembled together on the #[a(href="/resume") /resume] page.
+    Each of the endpoints will be documented for ease of consumption.
+    All "APIs" can be found at #[a(href="/data") /data].
+
+  h3 GET /data
+  p The /data route fetches the entire resume contents in JSON format.
+
+  h3 GET /data/:key1
+  p.
+    The /data/:key1 route fetches the resume content found under key1.
+    The available keys are contact, toolbox, experience, and education.
+
+  h3 GET /data/:key1/:key2
+  p.
+    The /data/:key1/:key2 allows delving two levels deep into the resume content.
+    For experience, this would include keys like name, location, and titles.
+    For contact this would include name and email.
+
+  h3 GET /data/:key1/:key2/:key3
+  p.
+    The /data/:key1/:key2/:key3 allows delving three levels deep into the resume content.
+    This third level is most useful for endpoints like /data/education/college or /data/experience/{employer} for digging into specifics.
+    A good example: #[a(href="/data/education/college/jobs") /data/education/college/jobs]
