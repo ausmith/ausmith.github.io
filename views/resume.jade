@@ -1,23 +1,23 @@
 extends layout
 
 block content
-  h1= contact['name']
-  h4= contact['email']
+  h1(style='text-align: center')= contact['name']
+  h4(style='text-align: center')= contact['email']
 
   h3 Toolbox
   table
     tr
       td Languages:
-      td= JSON.stringify(toolbox['languages'])
+      td= toolbox['languages'].join(', ')
     tr
       td Databases:
-      td= JSON.stringify(toolbox['databases'])
+      td= toolbox['databases'].join(', ')
     tr
       td Systems:
-      td= JSON.stringify(toolbox['systems'])
+      td= toolbox['systems'].join(', ')
     tr
       td Configuration:
-      td= JSON.stringify(toolbox['configuration'])
+      td= toolbox['configuration'].join(', ')
 
   h3 Experience
   each exp, key in experience
@@ -31,8 +31,7 @@ block content
             ul
               each l in line[1]
                 li= l
-    h5 Technologies
-    p= JSON.stringify(exp['technologies'])
+    h5 Technologies: #{ exp['technologies'].join(', ') }
 
   h3 College Education + Employment
   h4 #{ education['college']['name'] } :: #{ education['college']['degree'] } in #{ education['college']['subject'] } :: #{ education['college']['date'] }

@@ -16,7 +16,7 @@
           "dates": "6/10 - 6/11",
           "title": "Developer",
           "type": "co-op",
-          "detail": "Built custom regression testing framework in Python"
+          "detail": "Built custom regression testing framework (Python)"
         },
         "gtri": {
           "name": "GTRI",
@@ -62,7 +62,7 @@
           ["Architect proxy layer to facilitate platform switch from legacy systems (Java, Groovy, Netflix/zuul, AWS)", []],
           ["Began switch to AWS architecture as code (AWS CloudFormation with Ruby scripts)", []],
           ["Held meetings to teach developers throughout organization", [
-            "Organized security workshop to demonstrate ease of organizational compromise with a single weak link (https://github.com/ausmith/poormans-labyrinth)",
+            "Demonstrated through a security workshop how a single weak link can compromise an organization (github.com/ausmith/poormans-labyrinth)",
             "Spoke on learnings of moving off a legacy platform"
           ]],
           ["Managed relationships with multiple vendors and encouraged collaboration between organizations", []],
@@ -85,7 +85,7 @@
             "Ad hoc individual mentoring (Ruby and development environments)",
             "Updating the internal Ruby style guide with best practices"
           ]],
-          ["Migrated 8 sites from a third-party provider to self-managed AWS infrastructure (Ruby, AWS, Chef, PostgreSQL)", []]
+          ["Migrated 8 sites to self-managed AWS infrastructure (Ruby, AWS, Chef, PostgreSQL)", []]
         ]
       }
     },
