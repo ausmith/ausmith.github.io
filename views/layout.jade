@@ -1,7 +1,20 @@
 doctype html
 html
   head
-    title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
+    title ausmith.me
   body
-    block content
+    .header
+      h1.page-title ausmith.me
+
+    ul.nav
+      li: a(href='/') Documentation
+      li: a(href='/resume') Resume
+      li: a(href='https://github.com/ausmith/resume') GitHub Repo
+
+    .main-content
+      block content
+
+    .footer
+      p Copyright © 2016 Aaron Goldsmith.
+      p Theme based off #[a(href="https://github.com/bengourley/basic-express-site-2016" target="_blank") bengourley/basic-express-site-2016].
