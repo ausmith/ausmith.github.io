@@ -1,35 +1,76 @@
 extends layout
 
 block content
-  h1 Resume Documentation
-  p This site presents the resume for Aaron Goldsmith in a consumable format.
-  p You can also find the contents of this site at #[a(href="https://github.com/ausmith/resume") ausmith/resume].
-
-  h2 Resume ASSEMBLE!
-  p Go #[a(href="/resume") here] to see the assembled resume.
-
-  h2 Fetch as JSON
+  h1 API Documentation
   p.
-    The entirety of the resume has been represented as JSON and then assembled together on the #[a(href="/resume") /resume] page.
-    Each of the endpoints will be documented for ease of consumption.
-    All "APIs" can be found at #[a(href="/data") /data].
+    This site is the API + Documentation for Aaron Goldsmith's resume.
+    The code can be easily found at #[a(href="https://github.com/ausmith/resume" target="_blank") ausmith/resume].
 
-  h3 GET /data
+  h2 Assembled resume
+  p The #[a(href="/resume") resume] is assembled using the APIs documented below.
+
+  h2 APIs
+  p.
+    The APIs start with the #[a(href="/data" target="_blank") full document /data] and become more granular from there.
+
+  h3 GET #[a(href="/data" target="_blank") /data]
   p The /data route fetches the entire resume contents in JSON format.
 
-  h3 GET /data/:key1
+  h3 GET #[a(href="/data/contact" target="_blank") /data/contact]
   p.
-    The /data/:key1 route fetches the resume content found under key1.
-    The available keys are contact, toolbox, experience, and education.
+    Contact information separated by type.
 
-  h3 GET /data/:key1/:key2
+  h3 GET /data/contact/:type
   p.
-    The /data/:key1/:key2 allows delving two levels deep into the resume content.
-    For experience, this would include keys like name, location, and titles.
-    For contact this would include name and email.
+    More granular contact info request, can go down to the individual contact types e.g.
+    #[a(href="/data/contact/name" target="_blank") name],
+    #[a(href="/data/contact/email" target="_blank") email],
+    #[a(href="/data/contact/website" target="_blank") website].
 
-  h3 GET /data/:key1/:key2/:key3
+  h3 GET #[a(href="/data/education" target="_blank") /data/education]
   p.
-    The /data/:key1/:key2/:key3 allows delving three levels deep into the resume content.
-    This third level is most useful for endpoints like /data/education/college or /data/experience/{employer} for digging into specifics.
-    A good example: #[a(href="/data/education/college/jobs") /data/education/college/jobs]
+    Education section of the resume, broken down by education level.
+
+  h3 GET /data/education/:level
+  p.
+    Delving into a specific education level like #[a(href="/data/education/college" target="_blank") college].
+
+  h3 GET /data/education/:level/:key
+  p.
+    Inside an education level like #[a(href="/data/education/college" target="_blank") college],
+    further details can be learned about that level like
+    #[a(href="/data/education/college/name" target="_blank") name of institution],
+    #[a(href="/data/education/college/date" target="_blank") date of graduation],
+    or #[a(href="/data/education/college/jobs" target="_blank") jobs held during education].
+
+  h3 GET #[a(href="/data/experience" target="_blank") /data/experience]
+  p.
+    Work experience portion, broken down by employer.
+
+  h3 GET /data/experience/:employer
+  p.
+    Each employer key further breaks down that employment.
+    Example employers include
+    #[a(href="/data/experience/careerbuilder" target="_blank") CareerBuilder] and
+    #[a(href="/data/experience/govdelivery" target="_blank") GovDelivery].
+
+  h3 GET /data/experience/:employer/:key
+  p.
+    Each employer is broken down further to include details like
+    #[a(href="/data/experience/careerbuilder/name" target="_blank") employer name] and
+    #[a(href="/data/experience/careerbuilder/location" target="_blank") employer location].
+    Most interesting would be the
+    #[a(href="/data/experience/careerbuilder/technologies" target="_blank") technologies used] and
+    #[a(href="/data/experience/careerbuilder/titles" target="_blank") the titles held].
+
+  h3 GET #[a(href="/data/toolbox" target="_blank") /data/toolbox]
+  p.
+    The "toolbox" available to the engineer. Broken down by technology category e.g. languages vs databases.
+
+  h3 GET /data/toolbox/:category
+  p.
+    Each toolbox category like
+    #[a(href="/data/toolbox/languages" target="_blank") languages] and
+    #[a(href="/data/toolbox/databases" target="_blank") databases]
+    details the set of technologies that have been used throughout the user's career.
+    Levels of competence vary, but all are free game in an interview.
