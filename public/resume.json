@@ -142,7 +142,8 @@
     "languages": [
       "Ruby",
       "Python",
-      "C"
+      "C",
+      "Node.js"
     ],
     "databases": [
       "SQL (PostgreSQL, MySQL, Oracle)",
