@@ -16,7 +16,7 @@ var testExpectedObjectStructure = function(expectedObj, obj) {
 describe('Data API', function() {
   var server;
   var expectedStructure = {
-    contact: { name: '', email: '' },
+    contact: { name: '', email: '', website: '' },
     education: { college: { name: '', degree: '', subject: '', date: '', jobs: {} } },
     experience: {
       careerbuilder: { name: '', location: '', dates: '', technologies: [], titles: {} },

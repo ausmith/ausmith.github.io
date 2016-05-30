@@ -2,7 +2,7 @@ extends layout
 
 block content
   h1(style='text-align: center')= contact['name']
-  h4(style='text-align: center')= contact['email']
+  h4(style='text-align: center') #{ contact['email'] } :: #[a(href="http://#{ contact['website'] }") #{ contact['website'] }]
 
   h3 Toolbox
   table
@@ -40,3 +40,6 @@ block content
       li #{ job['name'] } :: #{ job['title'] } - #{ job['type'] } :: #{ job['location'] } :: #{ job['dates'] }
       ul
         li= job['detail']
+
+  h3 References
+  p Available upon request
