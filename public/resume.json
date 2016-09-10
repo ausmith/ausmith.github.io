@@ -47,10 +47,28 @@
     }
   },
   "experience": {
+    "pindrop": {
+      "name": "Pindrop",
+      "location": "Atlanta, Georgia",
+      "dates": "07/16 - Present",
+      "technologies": [
+        "Ruby",
+        "Chef",
+        "Python",
+        "AWS",
+        "relational databases (MySQL)"
+      ],
+      "titles": {
+        "DevOps Engineer :: 7/16 - Present": [
+          ["Maintaining existing architecture in AWS, CenturyLink cloud, and data centers", []],
+          ["Facilitating move to Kubernetes and away from traditional server architectures", []]
+        ]
+      }
+    },
     "careerbuilder": {
       "name": "CareerBuilder",
       "location": "Norcross, Georgia",
-      "dates": "11/14 - Present",
+      "dates": "11/14 - 7/16",
       "technologies": [
         "Ruby",
         "Linux",
@@ -59,7 +77,7 @@
         "relational databases (PostgreSQL)"
       ],
       "titles": {
-        "Software Engineer 3 :: 7/15 - Present": [
+        "Software Engineer 3 :: 7/15 - 7/16": [
           ["Architect proxy layer to facilitate platform switch from legacy systems (Java, Groovy, Netflix/zuul, AWS)", []],
           ["Began switch to AWS architecture as code (AWS CloudFormation with Ruby scripts)", []],
           ["Held meetings to teach developers throughout organization", [
