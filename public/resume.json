@@ -61,7 +61,12 @@
       "titles": {
         "DevOps Engineer :: 7/16 - Present": [
           ["Maintaining existing architecture in AWS, CenturyLink cloud, and data centers", []],
-          ["Facilitating move to Kubernetes and away from traditional server architectures", []]
+          ["Facilitating move to Kubernetes and away from traditional server architectures", []],
+          ["Part of team managing Kubernetes clusters used by multiple teams", [
+            "Monitor and maintain multiple Kubernetes clusters to support all development activity",
+            "Build in zero downtime deployments for cluster level updates and upgrades",
+            "Help and train other teams on how best to utilize the Kubernetes clusters"
+          ]]
         ]
       }
     },
