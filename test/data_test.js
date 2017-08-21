@@ -19,6 +19,7 @@ describe('Data API', function() {
     contact: { name: '', email: '', website: '' },
     education: { college: { name: '', degree: '', subject: '', date: '', jobs: {} } },
     experience: {
+      pindrop: { name: '', location: '', dates: '', technologies: [], titles: {} },
       careerbuilder: { name: '', location: '', dates: '', technologies: [], titles: {} },
       govdelivery: { name: '', location: '', dates: '', technologies: [], titles: {} },
       damballa: { name: '', location: '', dates: '', technologies: [], titles: {} }

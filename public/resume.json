@@ -52,11 +52,14 @@
       "location": "Atlanta, Georgia",
       "dates": "07/16 - Present",
       "technologies": [
-        "Ruby",
-        "Chef",
-        "Python",
         "AWS",
-        "relational databases (MySQL)"
+        "Kubernetes",
+        "Python",
+        "Terraform",
+        "Packer",
+        "relational databases (MySQL, PostgreSQL)",
+        "Ruby",
+        "Chef"
       ],
       "titles": {
         "DevOps Engineer :: 7/16 - Present": [
