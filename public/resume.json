@@ -169,7 +169,8 @@
       "Ruby",
       "Python",
       "C",
-      "Node.js"
+      "Node.js",
+      "golang"
     ],
     "databases": [
       "SQL (PostgreSQL, MySQL, Oracle)",
@@ -177,11 +178,13 @@
       "Cassandra"
     ],
     "systems": [
-      "Linux (CentOS, Ubuntu)"
+      "Linux (CentOS, Ubuntu, Debian)"
     ],
     "configuration": [
       "Puppet",
-      "Chef"
+      "Chef",
+      "Terraform",
+      "CloudFormation"
     ]
   }
 }
