@@ -21,6 +21,13 @@ typical advice of the community and advise on how to rectify.
 * `/data/*`: Individual APIs
 * `/resume`: The all important resume
 
+## Deployment method
+
+Build latest AMI with [ausmith/machines](https://github.com/ausmith/machines).
+
+Test and deploy latest AMI with an update to, and deployment of,
+[ausmith/ausmith.me-tf](https://github.com/ausmith/ausmith.me-tf).
+
 ## Thank you for your interest!
 
 Really, thank you so much for being interested in looking at this repo. Any
