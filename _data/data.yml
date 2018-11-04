@@ -1,0 +1,238 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output. 
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Aaron Goldsmith
+    tagline: DevOps Engineer
+    avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: goldsmithaaron@gmail.com
+    phone: 770-722-0674
+    website: ausmith.me #do not add http://
+    linkedin: aarongoldsmith
+    github: ausmith
+    gitlab:
+    bitbucket:
+    twitter: '@goldsmithaaron'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+
+    languages:
+      - idiom: English
+        level: Native
+        
+    interests:
+      - item: Work Life Balance
+        link:
+
+      - item: Ultimate Frisbee
+        link:
+
+      - item: Video Games
+        link:
+
+career-profile:
+    title: About Me
+    summary: |
+      A hardworking engineer focused on the operation and reliability of
+      my employer's systems. Roles have varied from DevOps to Site Reliability
+      (SRE) to Software Engineer. Enabling my success are my passions for
+      strong communication and understanding the whole of any given system.
+
+education:
+    - degree: Bachelors in Computer Science
+      university: Georgia Institute of Technology
+      time: 2006 - 2011
+      details:
+
+experiences:
+    - role: DevOps Engineer
+      time: 2016 - Present
+      company: Pindrop - Atlanta, Georgia
+      details: |
+        Part of team managing Kubernetes clusters across multiple regions
+        and used by the cloud organization.
+
+          - Monitor and maintain multiple Kubernetes clusters.
+          - Handle different SLAs between development and production clusters.
+          - Build in zero downtime deployments for cluster level updates and
+            upgrades.
+          - Help and train other teams on how best to utilize our Kubernetes
+            clusters.
+          - Build self-service portal to improve user credentialing process.
+          - Trained teams on moving services and applications into Kubernetes.
+          - Automated the deployment and updates of the Kubernetes clusters
+            as well as the delivery of AWS resources for other teams.
+
+        Toolbox:
+
+          - AWS
+          - Terraform
+          - Docker
+          - Kubernetes
+          - CI/CD (Drone and Jenkins)
+          - git and GitHub
+          - Python
+          - Bash
+          - Chef
+          - Statsd
+          - Logstash and fluent
+          - Relational databases (PostgreSQL and MySQL)
+          - Linux
+
+    - role: Software Engineer
+      time: 2014 - 2016
+      company: CareerBuilder - Norcross, Georgia
+      details: |
+        Member of a platform team for the company's public website.
+
+          - Architect proxy layer to facilitate platform switch from legacy
+            systems.
+          - Managed AWS footprint for greenfield projects and switched
+            team to doing infrastructure as code (AWS CloudFormation).
+          - Introduced security-minded system configuration.
+          - Ran a security workshop to show how a single weak link can
+            compromise an organization (github.com/ausmith/poormans-labyrinth).
+          - Spoke internally about what we learned moving off a legacy
+            platform.
+          - Mentored others on coding best practices.
+          - Automated the setup of engineer development environments to
+            reduce spin up time for new engineers.
+          - Managed relationships with multiple vendors and encouraged
+            collaboration between organizations.
+
+        Toolbox:
+
+          - AWS
+          - CloudFormation
+          - CI/CD (TeamCity and CodeDeploy)
+          - git and GitHub
+          - Ruby
+          - Bash
+          - Groovy
+          - Chef
+          - Relational databases (PostgreSQL)
+          - Linux
+
+    - role: Software Engineer
+      time: 2014 - 2014
+      company: GovDelivery - St Paul, Minnesota
+      details: |
+        Member of team managing our primary Ruby on Rails application.
+
+          - Maintained, updated, and upgraded applications to fulfill
+            customer needs.
+          - Contributed to upgrading Rails projects from 3.X to Rails 4.X.
+          - Closely collaborated with quality assurance and product management.
+          - Rebuilt internal Jenkins build box via Puppet while upgrading OS
+            (CentOS 5 to CentOS 6).
+
+        Toolbox:
+
+          - Ruby
+          - Javascript
+          - Puppet
+          - Relational databses (Oracle)
+
+    - role: Software Engineer
+      time: 2011 - 2014
+      company: Damballa - Atlanta, Georgia
+      details: |
+        Member of an internal services and platform team that helped research
+        and other engineering groups.
+
+          - Managed and maintained field data for data scientists to process.
+          - Handled all infrastructure between threat analysts and the knowledge
+            delivery to systems in the field.
+            - Command line tools for annotating threat knowledge.
+            - Application with business logic for converting research data to
+              product consumable format.
+            - Delivery engine of knowledge base updates for devices in the field.
+          - Stored information about files collected by systems in the field,
+            managed infrastructure to analyze those files, and delivered results
+            via an API.
+
+        Toolbox:
+
+          - Ruby
+          - Python
+          - C
+          - Puppet
+          - Linux
+          - AWS
+          - Relational and non-relational databases (MySQL, PostgreSQL,
+            CouchDB, Cassandra)
+
+projects:
+    title: Conference Talks
+    intro:
+
+    assignments:
+      - title: How NOT to Review a Pull Request
+        link: "https://github.com/ausmith/How-NOT-to-Review-a-Pull-Request/"
+        tagline: "A guide, through negative examples, on avoiding code review pitfalls."
+
+#publications:
+#    title: Conference Talks
+#    intro:
+#
+#    papers:
+#      - title: How NOT to Review a Pull Request
+#        authors: Donald E. Knuth
+#        conference: Addison-Wesley, 1968
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Ruby and Ruby on Rails
+        level: 85%
+
+      - name: Python
+        level: 85%
+
+      - name: C
+        level: 50%
+
+      - name: golang
+        level: 60%
+
+      - name: Node.js
+        level: 40%
+
+      - name: SQL (PostgreSQL, MySQL, Oracle)
+        level: 70%
+
+      - name: CouchDB
+        level: 40%
+
+      - name: Cassandra
+        level: 40%
+
+      - name: Linux
+        level: 80%
+
+      - name: Puppet
+        level: 60%
+
+      - name: Chef
+        level: 60%
+
+      - name: Terraform
+        level: 95%
+
+      - name: CloudFormation
+        level: 85%
+
+      - name: AWS
+        level: 98%
+
+footer: >
+    Theme designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>.
+    Jekyll template from <a href="https://github.com/sharu725/online-cv" target="_blank">sharu725/online-cv</a>.
