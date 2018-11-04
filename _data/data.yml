@@ -191,47 +191,57 @@ skills:
     title: Toolbox Proficiency
 
     toolset:
-      - name: AWS
-        level: 98%
+      - title: Cloud Technologies
+        skills:
+        - name: AWS
+          level: 98%
 
-      - name: Terraform
-        level: 95%
+      - title: Languages and Frameworks
+        skills:
+        - name: Ruby and Ruby on Rails
+          level: 85%
 
-      - name: CloudFormation
-        level: 85%
+        - name: Python
+          level: 85%
 
-      - name: Ruby and Ruby on Rails
-        level: 85%
+        - name: golang
+          level: 60%
 
-      - name: Python
-        level: 85%
+        - name: C
+          level: 50%
 
-      - name: golang
-        level: 60%
+        - name: Node.js
+          level: 40%
 
-      - name: C
-        level: 50%
+      - title: Systems
+        skills:
+        - name: Linux
+          level: 80%
 
-      - name: Node.js
-        level: 40%
+      - title: Configuration Management
+        skills:
+        - name: Terraform
+          level: 95%
 
-      - name: Linux
-        level: 80%
+        - name: CloudFormation
+          level: 85%
 
-      - name: Puppet
-        level: 60%
+        - name: Puppet
+          level: 60%
 
-      - name: Chef
-        level: 60%
+        - name: Chef
+          level: 60%
 
-      - name: SQL (PostgreSQL, MySQL, Oracle)
-        level: 70%
+      - title: Databases
+        skills:
+        - name: SQL (PostgreSQL, MySQL, Oracle)
+          level: 70%
 
-      - name: CouchDB
-        level: 40%
+        - name: CouchDB
+          level: 40%
 
-      - name: Cassandra
-        level: 40%
+        - name: Cassandra
+          level: 40%
 
 footer: >
     Theme designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>.
