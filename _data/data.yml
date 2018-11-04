@@ -121,7 +121,7 @@ experiences:
           - Linux
 
     - role: Software Engineer
-      time: 2014 - 2014
+      time: 2014
       company: GovDelivery - St Paul, Minnesota
       details: |
         Member of team managing our primary Ruby on Rails application.
@@ -188,31 +188,31 @@ projects:
 #        conference: Addison-Wesley, 1968
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Toolbox Proficiency
 
     toolset:
+      - name: AWS
+        level: 98%
+
+      - name: Terraform
+        level: 95%
+
+      - name: CloudFormation
+        level: 85%
+
       - name: Ruby and Ruby on Rails
         level: 85%
 
       - name: Python
         level: 85%
 
-      - name: C
-        level: 50%
-
       - name: golang
         level: 60%
 
+      - name: C
+        level: 50%
+
       - name: Node.js
-        level: 40%
-
-      - name: SQL (PostgreSQL, MySQL, Oracle)
-        level: 70%
-
-      - name: CouchDB
-        level: 40%
-
-      - name: Cassandra
         level: 40%
 
       - name: Linux
@@ -224,14 +224,14 @@ skills:
       - name: Chef
         level: 60%
 
-      - name: Terraform
-        level: 95%
+      - name: SQL (PostgreSQL, MySQL, Oracle)
+        level: 70%
 
-      - name: CloudFormation
-        level: 85%
+      - name: CouchDB
+        level: 40%
 
-      - name: AWS
-        level: 98%
+      - name: Cassandra
+        level: 40%
 
 footer: >
     Theme designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>.
