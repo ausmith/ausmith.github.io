@@ -60,15 +60,24 @@ experiences:
         and used by the cloud organization.
 
           - Monitor and maintain multiple Kubernetes clusters.
+            - Clusters are deployed to AWS using Terraform.
+            - Monitoring through statsd metrics and logstash/fluent log collection.
           - Handle different SLAs between development and production clusters.
           - Build in zero downtime deployments for cluster level updates and
             upgrades.
-          - Help and train other teams on how best to utilize our Kubernetes
-            clusters.
           - Build self-service portal to improve user credentialing process.
-          - Trained teams on moving services and applications into Kubernetes.
+          - Train teams on moving services and applications into Kubernetes.
+            - Put together workshops, provide documentation, conduct regular
+              office hours, and hold one-on-one sessions with other team members.
+            - Topics range from migration into Kubernetes, to architectural
+              design, to best resource utilization and required AWS resources.
           - Automated the deployment and updates of the Kubernetes clusters
             as well as the delivery of AWS resources for other teams.
+            - CI/CD architecture through Drone.
+            - Utilized the same toolchain between CI/CD and personal systems
+              using a single docker container.
+            - All tools wrapped in easy to use Python or Bash scripts to help
+              reduce new engineer startup time.
 
         Toolbox:
 
@@ -97,11 +106,14 @@ experiences:
           - Managed AWS footprint for greenfield projects and switched
             team to doing infrastructure as code (AWS CloudFormation).
           - Introduced security-minded system configuration.
+            - Brought in a vendor to help us audit our AWS configuration
+              and stay ahead of potential vulnerabilities.
           - Ran a security workshop to show how a single weak link can
             compromise an organization (github.com/ausmith/poormans-labyrinth).
           - Spoke internally about what we learned moving off a legacy
             platform.
           - Mentored others on coding best practices.
+            - Covered general and Ruby specific best practices.
           - Automated the setup of engineer development environments to
             reduce spin up time for new engineers.
           - Managed relationships with multiple vendors and encouraged
@@ -176,7 +188,7 @@ projects:
     assignments:
       - title: How NOT to Review a Pull Request
         link: "https://github.com/ausmith/How-NOT-to-Review-a-Pull-Request/"
-        tagline: "A guide, through negative examples, on avoiding code review pitfalls."
+        tagline: "A guide, through negative examples, on avoiding code review pitfalls. Presented at multiple DevOps conferences nation wide."
 
 #publications:
 #    title: Conference Talks
