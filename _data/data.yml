@@ -61,7 +61,7 @@ experiences:
 
           - Monitor and maintain multiple Kubernetes clusters.
             - Clusters are deployed to AWS using Terraform.
-            - Monitoring through statsd metrics and logstash/fluent log collection.
+            - Monitoring through statsd metrics and logstash log collection.
           - Handle different SLAs between development and production clusters.
           - Build in zero downtime deployments for cluster level updates and
             upgrades.
@@ -91,7 +91,7 @@ experiences:
           - Bash
           - Chef
           - Statsd
-          - Logstash and fluent
+          - Logstash
           - Relational databases (PostgreSQL and MySQL)
           - Linux
 
