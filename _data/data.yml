@@ -1,5 +1,5 @@
 #
-# Be aware that even a small syntax error here can lead to failures in output. 
+# Be aware that even a small syntax error here can lead to failures in output.
 #
 
 sidebar:
@@ -26,7 +26,7 @@ sidebar:
     languages:
       - idiom: English
         level: Native
-        
+
     interests:
       - item: Work Life Balance
         link:
@@ -52,8 +52,19 @@ education:
       details:
 
 experiences:
+    - role: Software Engineer
+      time: 2019 - Present
+      company: Square - Atlanta, Georgia
+      details: |
+        On team migrating from homegrown orchestration to Kubernetes. Details
+        to come soon!
+
+        Toolbox:
+
+          - TBD, just started here!
+
     - role: DevOps Engineer
-      time: 2016 - Present
+      time: 2016 - 2018
       company: Pindrop - Atlanta, Georgia
       details: |
         Part of team managing Kubernetes clusters across multiple regions
