@@ -40,10 +40,11 @@ sidebar:
 career-profile:
     title: About Me
     summary: |
-      A hardworking engineer focused on the operation and reliability of
-      my employer's systems. Roles have varied from DevOps to Site Reliability
-      (SRE) to Software Engineer. Enabling my success are my passions for
-      strong communication and understanding the whole of any given system.
+      A hardworking engineer focused on the operation and reliability. 
+      Roles have varied from DevOps to Site Reliability (SRE) to Software 
+      Engineer to Software Engineering Manager. Enabling my success are 
+      my passions for strong communication and understanding the whole 
+      of any given system.
 
 education:
     - degree: Bachelors in Computer Science
@@ -52,16 +53,38 @@ education:
       details:
 
 experiences:
-    - role: Software Engineer
+    - role: Software Engineer -> Engineering Manager
       time: 2019 - Present
-      company: Square - Atlanta, Georgia
+      company: Block - Remote
       details: |
-        On team migrating from homegrown orchestration to Kubernetes. Details
-        to come soon!
+        On team migrating from homegrown orchestration in datacenters 
+        to Kubernetes one workload at a time.
+        
+          - Started Kubernetes migration by building new platform in
+            the cloud.
+          - Move towards a secure by default deployment model using
+            seccomp, pod security policies, network policies per app,
+            RBAC per app, and more.
+          - Navigate PCI, SOX, and other compliance certifications for
+            platforms.
+          - Built CD system from the ground up.
 
         Toolbox:
 
-          - TBD, just started here!
+          - Kubernetes
+          - AWS
+          - Linux
+          - Python
+          - Bash
+          - Ruby
+          - Go
+          - CI/CD (Buildkite)
+          - Terraform
+          - Docker
+          - git and GitHub
+          - People management
+          - Large project management
+          - Technical leadership
 
     - role: DevOps Engineer
       time: 2016 - 2018
