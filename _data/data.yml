@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Aaron Goldsmith
-    tagline: DevOps Engineer
+    tagline: DevOps Engineering Manager
     avatar: profile.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -40,11 +40,11 @@ sidebar:
 career-profile:
     title: About Me
     summary: |
-      A hardworking engineer focused on the operation and reliability. 
-      Roles have varied from DevOps to Site Reliability (SRE) to Software 
-      Engineer to Software Engineering Manager. Enabling my success are 
-      my passions for strong communication and understanding the whole 
-      of any given system.
+      An engineering manager with extensive experience building and maintaining 
+      internal developer platforms. Have a penchant for DevOps and SRE leaning
+      teams. The values that have enabled my success are my passion for strong
+      communication, desire to understand the whole of any given system, and
+      tapping into people's passions to inspire and engage them in the workplace.
 
 education:
     - degree: Bachelors in Computer Science
@@ -58,7 +58,7 @@ experiences:
       company: Block - Remote
       details: |
         On team migrating from homegrown orchestration in datacenters 
-        to Kubernetes one workload at a time.
+        to Kubernetes in the cloud.
         
           - Started Kubernetes migration by building new platform in
             the cloud.
@@ -245,19 +245,19 @@ skills:
       - title: Languages and Frameworks
         skills:
         - name: Ruby and Ruby on Rails
-          level: 85%
+          level: 70%
 
         - name: Python
-          level: 85%
+          level: 70%
 
         - name: golang
           level: 60%
 
         - name: C
-          level: 50%
+          level: 30%
 
         - name: Node.js
-          level: 40%
+          level: 30%
 
       - title: Systems
         skills:
@@ -273,10 +273,10 @@ skills:
           level: 85%
 
         - name: Puppet
-          level: 60%
+          level: 40%
 
         - name: Chef
-          level: 60%
+          level: 40%
 
       - title: Databases
         skills:
@@ -284,10 +284,10 @@ skills:
           level: 70%
 
         - name: CouchDB
-          level: 40%
+          level: 20%
 
         - name: Cassandra
-          level: 40%
+          level: 20%
 
 footer: >
     Theme designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>.
