@@ -57,17 +57,47 @@ experiences:
       time: 2019 - Present
       company: Block - Remote
       details: |
-        On team migrating from homegrown orchestration in datacenters 
-        to Kubernetes in the cloud.
+        In 2019, joined the team who managed a homegrown orchestration
+        system in our datacenters. Shortly after joining, began leading
+        a volunteer group to spin up the replacement Kubernetes platform
+        in AWS. In 2021, moved from tech lead to engineering manager of
+        the team and began building the cloud continuous deployment system.
+        In 2022, the organization began a major cloud migration, resulting
+        in growing the team from 7 to 14 engineers and breaking them into
+        two squads (one focused on CD and the other on making cloud migration
+        easy).
         
-          - Started Kubernetes migration by building new platform in
-            the cloud.
-          - Move towards a secure by default deployment model using
-            seccomp, pod security policies, network policies per app,
-            RBAC per app, and more.
-          - Navigate PCI, SOX, and other compliance certifications for
-            platforms.
-          - Built CD system from the ground up.
+          - Maintain datacenter uptime, reliability, and compliance while
+            building replacement Kubernetes platform.
+          - Built highly scalable shared Kubernetes platform where deployed
+            services are secure by default through the use of:
+            - RBAC for strong namespace isolation and following least privilege.
+            - A namespace per deployed service.
+            - Pod Security Policies to restrict containers from potentially
+              privileged linux capabilities.
+            - Network policies restrict workload network access for least
+              privilege.
+            - Cluster autoscaling via custom code and enable Horizontal Pod
+              Autoscaling for apps via metrics outside the clusters.
+            - Each service could use OIDC to assume their own IAM role, keeping
+              access to the application's own resources only.
+          - Operated the platform such that PCI and SOX compliant applications
+            passed audits while running in the clusters.
+          - Built CD system from the ground up to enable both Kubernetes and
+            Lambda code deployments.
+            - Integrated artifact inventory system with build system to enable
+              autodeployments.
+            - Used per workload attested agents to restrict pipeline access such
+              that they could only access their workload's resources for deployment.
+            - Built in pipeline customizations like pausing for human validation
+              while adding metrics validation to pipelines (not complete yet).
+            - Kept each target's (Kubernetes and Lambda) capabilities in parity
+              throughout build out.
+          - Organized and led multiple gameday activities focused on partnering
+            with security incident response team with our Kubernetes platform.
+            - Scenarios included investigating monitoring gaps, identifying
+              malicious behavior in the clusters, and recommending remediation.
+            - Used as both training opportunities and practice sessions.
 
         Toolbox:
 
