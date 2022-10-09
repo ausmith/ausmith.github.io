@@ -103,6 +103,8 @@ experiences:
           - People management
           - Large project management
           - Technical leadership
+          - Relational databases (MySQL)
+          - Non-relational databases (Consul and DynamoDB)
 
     - role: DevOps Engineer
       time: 2016 - 2018
@@ -193,7 +195,7 @@ experiences:
           - Ruby
           - Javascript
           - Puppet
-          - Relational databses (Oracle)
+          - Relational databases (Oracle)
 
     - role: Software Engineer
       time: 2011 - 2014
@@ -221,8 +223,8 @@ experiences:
           - Puppet
           - Linux
           - AWS
-          - Relational and non-relational databases (MySQL, PostgreSQL,
-            CouchDB, Cassandra)
+          - Relational databases (MySQL and PostgreSQL)
+          - Non-relational databases (CouchDB, Cassandra)
 
 projects:
     title: Conference Talks
@@ -249,7 +251,24 @@ skills:
       - title: Cloud Technologies
         skills:
         - name: AWS
-          level: 98%
+          level: 90%
+
+      - title: Management and Leadership
+        skills:
+        - name: Mentorship and Teaching
+          level: 90%
+
+        - name: Vendor Management
+          level: 80%
+
+        - name: Technical Leadership
+          level: 80%
+
+        - name: Annual/Quarterly Planning
+          level: 70%
+
+        - name: Giving Performance Feedback
+          level: 70%
 
       - title: Languages and Frameworks
         skills:
@@ -259,7 +278,7 @@ skills:
         - name: Python
           level: 70%
 
-        - name: golang
+        - name: Golang
           level: 60%
 
         - name: C
@@ -291,6 +310,9 @@ skills:
         skills:
         - name: SQL (PostgreSQL, MySQL, Oracle)
           level: 70%
+
+        - name: Consul
+          level: 40%
 
         - name: CouchDB
           level: 20%
