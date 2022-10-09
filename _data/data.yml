@@ -245,7 +245,7 @@ projects:
 #        conference: Addison-Wesley, 1968
 
 skills:
-    title: Toolbox Proficiency (Scale: 0-100)
+    title: Toolbox Proficiency
 
     toolset:
       - title: Cloud Technologies
