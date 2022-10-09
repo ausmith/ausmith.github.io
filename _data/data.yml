@@ -231,7 +231,7 @@ projects:
     assignments:
       - title: How NOT to Review a Pull Request
         link: "https://github.com/ausmith/How-NOT-to-Review-a-Pull-Request/"
-        tagline: "A guide, through negative examples, on avoiding code review pitfalls. Presented at multiple DevOps conferences nation wide."
+        tagline: "A guide, through negative examples, on avoiding code review pitfalls. Presented at multiple DevOps conferences across USA."
 
 #publications:
 #    title: Conference Talks
