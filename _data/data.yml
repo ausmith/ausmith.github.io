@@ -23,19 +23,19 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
 
-    languages:
-      - idiom: English
-        level: Native
+    #languages:
+    #  - idiom: English
+    #    level: Native
 
-    interests:
-      - item: Work Life Balance
-        link:
+    #interests:
+    #  - item: Work Life Balance
+    #    link:
 
-      - item: Ultimate Frisbee
-        link:
+    #  - item: Ultimate Frisbee
+    #    link:
 
-      - item: Video Games
-        link:
+    #  - item: Video Games
+    #    link:
 
 career-profile:
     title: About Me
