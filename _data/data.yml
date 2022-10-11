@@ -87,26 +87,6 @@ experiences:
           - Managed vendor relationships, including evaluations, contract 
             negotiations, and budgeting.
 
-
-        Toolbox:
-
-          - Kubernetes
-          - AWS
-          - Linux
-          - Python
-          - Bash
-          - Ruby
-          - Go
-          - CI/CD (Buildkite)
-          - Terraform
-          - Docker
-          - git and GitHub
-          - People management
-          - Large project management
-          - Technical leadership
-          - Relational databases (MySQL)
-          - Non-relational databases (Consul and DynamoDB)
-
     - role: DevOps Engineer
       time: 2016 - 2018
       company: Pindrop - Atlanta, Georgia
@@ -125,22 +105,6 @@ experiences:
             clusters and requisite AWS resources with a CI/CD solution.
           - Unified the platform engineering development environment
             with a single toolset in a shared Docker container.
-
-        Toolbox:
-
-          - AWS
-          - Terraform
-          - Docker
-          - Kubernetes
-          - CI/CD (Drone and Jenkins)
-          - git and GitHub
-          - Python
-          - Bash
-          - Chef
-          - Statsd
-          - Logstash
-          - Relational databases (PostgreSQL and MySQL)
-          - Linux
 
     - role: Software Engineer
       time: 2014 - 2016
@@ -164,19 +128,6 @@ experiences:
           - Managed relationships with multiple vendors and encouraged
             collaboration between organizations.
 
-        Toolbox:
-
-          - AWS
-          - CloudFormation
-          - CI/CD (TeamCity and CodeDeploy)
-          - git and GitHub
-          - Ruby
-          - Bash
-          - Groovy
-          - Chef
-          - Relational databases (PostgreSQL)
-          - Linux
-
     - role: Software Engineer
       time: 2014
       company: GovDelivery - St Paul, Minnesota
@@ -189,13 +140,6 @@ experiences:
           - Closely collaborated with quality assurance and product management.
           - Rebuilt internal Jenkins build box via Puppet while upgrading from
             CentOS 5 to CentOS 6.
-
-        Toolbox:
-
-          - Ruby
-          - Javascript
-          - Puppet
-          - Relational databases (Oracle)
 
     - role: Software Engineer
       time: 2011 - 2014
@@ -214,17 +158,6 @@ experiences:
           - Stored information about files collected by systems in the field,
             managed infrastructure to analyze those files, and delivered results
             via an API.
-
-        Toolbox:
-
-          - Ruby
-          - Python
-          - C
-          - Puppet
-          - Linux
-          - AWS
-          - Relational databases (MySQL and PostgreSQL)
-          - Non-relational databases (CouchDB, Cassandra)
 
 projects:
     title: Conference Talks
