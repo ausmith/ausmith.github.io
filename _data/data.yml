@@ -60,32 +60,33 @@ experiences:
       company: Block - Remote
       details: |
         Part of team maintaining and operating company's deployment systems.
-      
-        2019 - 2021: individual contributor and tech lead
-        
-          - Maintain datacenter uptime, reliability, and compliance.
-          - Support legacy datacenter deployment platform.
-          - Organized and led volunteer group focused on building the 
-            replacement deployment platform with Kubernetes in AWS.
-          - Managed multiple vendor relationships from evaluation to 
-            contract negotiations to budgeting.
-          - Involved in the annual planning process as a technical lead.
-          
+
         2021 - 2022: engineering manager
-        
-          - Took over as the engineering manager.
-          - Kubernetes platform went generally available for all engineers
+
+          - Took the Kubernetes platform generally available for all engineers
             to deploy their services in a secure by default environment.
-          - Involved in achieving PCI and SOX compliance in our Kubernetes
-            clusters.
-          - Built continuous deployment platform that targets both Lambda
-            and our Kubernetes environment.
-          - Grew team from 7 to 14 engineers and established independent
+          - Designed the Kubernetes clusters for PCI and SOX compliance, achieving
+            both by aiding with the required documentation and being interviewed
+            by auditors.
+          - Formed and guided a squad of engineers who built a continuous deployment
+            platform that targets both Lambda and Kubernetes deployments.
+          - Doubled team from 7 to 14 engineers and established independent
             squads to reduce surface area per engineer.
           - Organized and led multiple gameday activities focused on partnering
             with security incident response team with our Kubernetes platform.
           - Piloted and established DevOps hiring process as separate track
             from typical software engineering hiring.
+
+        2019 - 2021: individual contributor and tech lead
+        
+          - Maintain datacenter uptime, reliability, and compliance through
+            tooling improvements and server management.
+          - Created a standards based Kubernetes deployment platform by 
+            founding and leading a team of volunteers to replace our legacy, 
+            proprietary deployment platform.
+          - Managed vendor relationships, including evaluations, contract 
+            negotiations, and budgeting.
+
 
         Toolbox:
 
@@ -110,21 +111,20 @@ experiences:
       time: 2016 - 2018
       company: Pindrop - Atlanta, Georgia
       details: |
-        Part of team managing Kubernetes clusters across multiple regions
-        and used by the cloud organization.
+        Member of team managing Kubernetes clusters across multiple regions.
 
-          - Monitored and maintained multiple Kubernetes clusters.
-          - Handled different SLAs between development and production clusters.
+          - Monitored and maintained multiple Kubernetes clusters, differentiating
+            SLAs between development and production environments.
           - Built in zero downtime deployments for cluster level updates and
             upgrades.
           - Built self-service portal to improve eng credentialing process.
-          - Train teams on moving services and applications into Kubernetes 
+          - Trained teams on moving services and applications into Kubernetes 
             using workshops, documentation, office hours, and one-on-one 
             mentorship.
-          - Automated the deployment and updates of the Kubernetes clusters
-            as well as the delivery of AWS resources for other teams using
-            CI/CD for infrastructure updates and a unified development environment
-            between all engineers via a shared Docker container.
+          - Automated the infrastructure as code that managed the Kubernetes
+            clusters and requisite AWS resources with a CI/CD solution.
+          - Unified the platform engineering development environment
+            with a single toolset in a shared Docker container.
 
         Toolbox:
 
