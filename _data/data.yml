@@ -55,8 +55,33 @@ education:
       details:
 
 experiences:
+    - role: Engineering Manager
+      time: 2023 - Present
+      company: Block - Remote
+      details: |
+        Manage team operating the Cash App deployment platform and cloud infrastructure.
+
+    - role: Engineering Manager
+      time: 2023
+      company: Stackwatch - Remote
+      details: |
+        Managed a product engineering team who launched Kubecost Cloud, a tech writer,
+        and an infrastructure team.
+
+          - Operated minimalistic infrastructure that scaled through the Kubecost
+            Cloud soft launch, beta launch, and general availability.
+          - Managed small engineering team in building, operating, and launching
+            the Kubecost Cloud product.
+          - Integrated our tech writer into engineering and worked to connect
+            them with the product engineering release cadences for both the
+            Cloud and Self-Hosted products.
+          - Helped the company achieve SOC2 Type 2 through establishing company
+            policies, bringing in a compliance monitoring platform, collecting
+            auditor necessary evidence, and handling nearly all project management
+            along the way.
+
     - role: Software Engineer -> Engineering Manager
-      time: 2019 - Present
+      time: 2019 - 2022
       company: Block - Remote
       details: |
         Member of team maintaining and operating company's deployment systems.
