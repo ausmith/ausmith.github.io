@@ -56,10 +56,19 @@ education:
 
 experiences:
     - role: Engineering Manager
-      time: 2023 - Present
+      time: 2023 - 2024
       company: Block - Remote
       details: |
-        Manage team operating the Cash App deployment platform and cloud infrastructure.
+        Managed the team operating the Cash App compute platform and cloud infrastructure.
+
+          - Team operated a Kubernetes based compute platform used by Cash App
+            product engineers to run their services and Terraform pipelines for
+            maintaining infrastructure.
+          - Worked closely with internal teams to maintain PCI and SOX compliance
+            at the platform level.
+          - Established a cross company Kubernetes platforms sync with the intent
+            of identifying shared problems that could be tackled together regardless
+            of organizational silos.
 
     - role: Engineering Manager
       time: 2023
