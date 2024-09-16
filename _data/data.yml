@@ -44,9 +44,9 @@ career-profile:
       maintaining internal developer platforms. My primary interests lie in 
       DevOps/SRE leaning teams focused on providing engineers with tools and 
       platforms to make delivering value fast, easy, and secure by default. 
-      The values that have enabled my success are my passion for clear 
+      The values that have enabled my success are: my penchant for clear 
       communication, desire to understand the whole of any given system, and 
-      tapping into people's passions to inspire and engage them in the workplace.
+      tapping into people’s passions to inspire and engage them in the workplace.
 
 education:
     - degree: Bachelors in Computer Science
@@ -59,67 +59,44 @@ experiences:
       time: 2023 - 2024
       company: Block - Remote
       details: |
-        Managed the team operating the Cash App compute platform and cloud infrastructure.
+        Managed the team operating the Cash App Kubernetes compute platform and cloud infrastructure.
 
-          - Team operated a Kubernetes based compute platform used by Cash App
-            product engineers to run their services and Terraform pipelines for
-            maintaining infrastructure.
-          - Worked closely with internal teams to maintain PCI and SOX compliance
-            at the platform level.
-          - Established a cross company Kubernetes platforms sync with the intent
-            of identifying shared problems that could be tackled together regardless
-            of organizational silos.
+          - Worked closely with internal teams to maintain PCI and SOX platform compliance.
+          - Established a cross company Kubernetes platforms sync with the intent of 
+            identifying shared problems that could be tackled together regardless of 
+            organizational silos.
 
     - role: Engineering Manager
       time: 2023
       company: Stackwatch - Remote
       details: |
-        Managed a product engineering team who launched Kubecost Cloud, a tech writer,
-        and an infrastructure team.
+        Managed a product engineering team who launched Kubecost Cloud, a tech writer, and an infrastructure team.
 
-          - Operated minimalistic infrastructure that scaled through the Kubecost
-            Cloud soft launch, beta launch, and general availability.
-          - Managed small engineering team in building, operating, and launching
-            the Kubecost Cloud product.
-          - Integrated our tech writer into engineering and worked to connect
-            them with the product engineering release cadences for both the
-            Cloud and Self-Hosted products.
-          - Helped the company achieve SOC2 Type 2 through establishing company
-            policies, bringing in a compliance monitoring platform, collecting
-            auditor necessary evidence, and handling nearly all project management
-            along the way.
+          - Operated minimalistic infrastructure that scaled through the Kubecost Cloud soft launch, beta launch, and general availability.
+          - Managed small engineering team of 4 through building, operating, and launching the Kubecost Cloud product.
+          - Integrated our tech writer into engineering practices and worked to connect them with the product engineering release cadences for both the Cloud and Self-Hosted products.
+          - Helped the company achieve SOC2 Type 2 through establishing company policies, bringing in a compliance monitoring platform, collecting auditor necessary evidence, and handling nearly all project management along the way.
 
     - role: Software Engineer -> Engineering Manager
       time: 2019 - 2022
       company: Block - Remote
       details: |
-        Member of team maintaining and operating company's deployment systems.
-
-        2021 - 2022: engineering manager
-
-          - Took the Kubernetes platform generally available for all engineers
-            to deploy their services in a secure by default environment.
-          - Designed the Kubernetes clusters for PCI and SOX compliance, achieving
-            both by aiding with the required documentation and being interviewed
-            by auditors.
-          - Formed and guided a squad of engineers who built a continuous deployment
-            platform that targets both Lambda and Kubernetes deployments.
-          - Doubled team from 7 to 14 engineers and established independent
-            squads to reduce surface area per engineer.
-          - Organized and led multiple gameday activities focused on partnering
-            with security incident response team with our Kubernetes platform.
-          - Piloted and established DevOps hiring process as separate track
-            from typical software engineer hiring.
+        Member of team maintaining and operating company’s deployment systems.
 
         2019 - 2021: individual contributor and tech lead
         
-          - Maintain datacenter uptime, reliability, and compliance through
-            tooling improvements and server management.
-          - Created a standards based Kubernetes deployment platform by 
-            founding and leading a team of volunteers to replace our legacy, 
-            proprietary deployment platform.
-          - Managed vendor relationships, including evaluations, contract 
-            negotiations, and budgeting.
+          - Maintain datacenter uptime, reliability, and compliance through tooling improvements and server management.
+          - Created a standards based Kubernetes deployment platform by founding and leading a team of volunteers to replace our legacy, proprietary deployment platform.
+          - Managed vendor relationships, including evaluations, contract negotiations, and budgeting.
+
+        2021 - 2022: engineering manager
+
+          - Took the Kubernetes platform generally available for all engineers to deploy their services in a secure by default environment.
+          - Designed the Kubernetes clusters for PCI and SOX compliance, achieving both by aiding with documentation, evidence collection, and participating in interviews with auditors.
+          - Formed and guided a squad of engineers who built a continuous deployment platform that targets both Lambda and Kubernetes deployments.
+          - Doubled team from 7 to 14 engineers and established independent squads to reduce surface area per engineer.
+          - Organized and led multiple gameday activities focused on partnering with the security incident response team with our Kubernetes platform.
+          - Piloted and established the DevOps hiring process as a separate track from typical software engineer hiring.
 
     - role: DevOps Engineer
       time: 2016 - 2018
