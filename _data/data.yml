@@ -62,9 +62,8 @@ experiences:
         Managed the team operating the Cash App Kubernetes compute platform and cloud infrastructure.
 
           - Worked closely with internal teams to maintain PCI and SOX platform compliance.
-          - Established a cross company Kubernetes platforms sync with the intent of 
-            identifying shared problems that could be tackled together regardless of 
-            organizational silos.
+          - Established a cross company Kubernetes platforms sync with the intent of identifying shared problems that could be tackled together regardless of organizational silos.
+          - Team executed a major platform shift to multiple Kubernetes clusters that required multiple quarters of planning and focus.
 
     - role: Engineering Manager
       time: 2023
@@ -72,7 +71,7 @@ experiences:
       details: |
         Managed a product engineering team who launched Kubecost Cloud, a tech writer, and an infrastructure team.
 
-          - Operated minimalistic infrastructure that scaled through the Kubecost Cloud soft launch, beta launch, and general availability.
+          - Operated the infrastructure that scaled through the Kubecost Cloud soft launch, beta launch, and general availability while keeping costs below $1k per month.
           - Managed small engineering team of 4 through building, operating, and launching the Kubecost Cloud product.
           - Integrated our tech writer into engineering practices and worked to connect them with the product engineering release cadences for both the Cloud and Self-Hosted products.
           - Helped the company achieve SOC2 Type 2 through establishing company policies, bringing in a compliance monitoring platform, collecting auditor necessary evidence, and handling nearly all project management along the way.
