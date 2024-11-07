@@ -86,16 +86,14 @@ experiences:
         
           - Maintain datacenter uptime, reliability, and compliance through tooling improvements and server management.
           - Created a standards based Kubernetes deployment platform by founding and leading a team of volunteers to replace our legacy, proprietary deployment platform.
-          - Managed vendor relationships, including evaluations, contract negotiations, and budgeting.
 
         2021 - 2022: engineering manager
 
           - Took the Kubernetes platform generally available for all engineers to deploy their services in a secure by default environment.
           - Designed the Kubernetes clusters for PCI and SOX compliance, achieving both by aiding with documentation, evidence collection, and participating in interviews with auditors.
-          - Formed and guided a squad of engineers who built a continuous deployment platform that targets both Lambda and Kubernetes deployments.
-          - Doubled team from 7 to 14 engineers and established independent squads to reduce surface area per engineer.
-          - Organized and led multiple gameday activities focused on partnering with the security incident response team with our Kubernetes platform.
-          - Piloted and established the DevOps hiring process as a separate track from typical software engineer hiring.
+          - Doubled team from 7 to 14 engineers, establishing squads to reduce surface area per engineers, including a squad building a new continuous deployment platform that targeted both Lambda and Kubernetes deployments.
+          - Organized and led multiple gameday activities focused on partnering with the security incident response team and our Kubernetes platform.
+          - Helped establish the DevOps hiring process as a fork from the standard software engineering interviews.
 
     - role: DevOps Engineer
       time: 2016 - 2018
